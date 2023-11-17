@@ -1,10 +1,14 @@
 body{
-   background-color: rgb(167, 144, 189);
+   /* background-image: url("https://wallpapercave.com/wp/wp8192385.jpg"); */
+   /* background-size: ; /* Adjust as needed */
+   /* background-position: center; Adjust as needed */ 
+   background-image: url("https://th.bing.com/th/id/OIP.WaDnCXDu5gRmoz3RSKfoZAHaEo?w=255&h=180&c=7&r=0&o=5&pid=1.7");
 }
-.header{
+.header {
    font-size: 200%;
+   color: rgb(116, 72, 19);
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   display:flex;
+   display: flex;
    justify-content: center;
    align-items: center;
 }
