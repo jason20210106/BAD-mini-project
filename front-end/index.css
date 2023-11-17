@@ -1,15 +1,45 @@
-h1{
-   font-size: larger;
+body{
+   background-color: rgb(167, 144, 189);
+}
+.header{
+   font-size: 200%;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+   display:flex;
+   justify-content: center;
+   align-items: center;
 }
 
  button:hover{
     color: rgb(221, 0, 255);
     border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
  }
 
  input{
     border: solid 5px rgb(100, 100, 201);
     border-radius:5px
+ }
+ .entertask{
+   font-family: 'Kdam Thmor Pro', sans-serif;
+ }
+ #taskList{
+   font-family: 'Kdam Thmor Pro', sans-serif;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 400%;
+ }
+ 
+ #taskInput{
+   width:50%
+ }
+ .item{
+   font-size: large;
+   font-family: 'Kdam Thmor Pro', sans-serif;
+ }
+ .reload{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   color:blue
  }
